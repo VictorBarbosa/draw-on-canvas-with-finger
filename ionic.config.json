@@ -1,0 +1,7 @@
+{
+  "name": "draw-on-canvas-with-finger",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
