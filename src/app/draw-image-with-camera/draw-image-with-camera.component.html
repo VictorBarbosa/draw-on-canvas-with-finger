@@ -1,0 +1,12 @@
+
+<canvas #canvasVideo  width="640" height="480" ></canvas>
+<canvas #canvasDraw  width="640" height="480" ></canvas>
+<canvas #canvasDisplay  width="640" height="480"></canvas>
+
+<app-canvas-video [model]="model" (predictionReturn)="predictionReturn($event)" [canvas]="canvasVideo" [interetionPerSec]="100" [autoplay]="true"></app-canvas-video>
+
+<br>
+
+
+<ion-button (click)="clearCanvas()" expand="block">Clear Canvas</ion-button>
+

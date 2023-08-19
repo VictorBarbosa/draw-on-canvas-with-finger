@@ -5,6 +5,8 @@ import { FormsModule } from '@angular/forms';
 import { HomePage } from './home.page';
 
 import { HomePageRoutingModule } from './home-routing.module';
+import { DrawImageWithCameraComponent } from '../draw-image-with-camera/draw-image-with-camera.component';
+import { CanvasVideoComponent } from '../componets/canvas-video/canvas-video.component';
 
 
 @NgModule({
@@ -14,6 +16,9 @@ import { HomePageRoutingModule } from './home-routing.module';
     IonicModule,
     HomePageRoutingModule
   ],
-  declarations: [HomePage]
+  declarations: [HomePage,
+    DrawImageWithCameraComponent,
+    CanvasVideoComponent
+  ]
 })
-export class HomePageModule {}
+export class HomePageModule { }
